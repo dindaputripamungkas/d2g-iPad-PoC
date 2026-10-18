@@ -1,0 +1,4 @@
+*.xcodeproj/
+DerivedData/
+Models/
+.DS_Store

@@ -1,0 +1,22 @@
+name: Design2GarmentCode
+options:
+  deploymentTarget:
+    iOS: "27.0"
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.example.Design2GarmentCode
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "2"
+targets:
+  Design2GarmentCode:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        INFOPLIST_FILE: Sources/Info.plist
+        PRODUCT_NAME: Design2GarmentCode
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "2"
